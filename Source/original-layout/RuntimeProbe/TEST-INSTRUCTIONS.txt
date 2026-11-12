@@ -1,0 +1,61 @@
+CFG OFFLINE IDENTITY TEST - READ ONLY (SECOND DIAGNOSTIC)
+
+This is a diagnostic milestone, NOT a playable CFG mod. No CFG mod is installed.
+The first pointer-chain snapshot succeeded and is preserved separately. This
+second diagnostic verifies the native mode, controller and pawn classes before
+reading the identified pawn's seven stats or remaining trap count. It does not
+change these values. No feature is enabled by a successful diagnostic.
+
+1. Launch CFG normally using its existing Steam/launcher setup.
+2. Choose Offline Play > Offline Bots > Crystal Lake Small and start a match.
+   While in native settings, note the highest selectable counselor count if
+   convenient. Do not force a count or add another mod; this is catalogue evidence
+   only, not an increased-bot-count performance test.
+3. Once Jason can move normally, pause the match and leave the game open.
+4. Run G:\Codex\CampForestGreenOfflineBots-Port\Run-CFG-Offline-Diagnostic.cmd.
+   Choose 1 for Offline Bots. Expected: NativeMode=SCGameMode_OfflineBots,
+   NativePawnBase=SCKillerCharacter, plus KillerTrapCount.
+5. Return to the native menu, enter Sandbox as a counselor and wait until the
+   counselor is controllable. Pause, run the same diagnostic and choose 2.
+   Expected: NativeMode=SCGameMode_Sandbox, NativePawnBase=SCCounselorCharacter,
+   plus the seven counselor stats. Do not inject any additional hook for this test.
+6. Tell me the snapshots are done. You may then close the game.
+
+Reports are separate: Diagnostics\CFG-OfflineBots-Identity-Snapshot.txt and
+Diagnostics\CFG-Sandbox-Identity-Snapshot.txt. A third menu choice is reserved
+for Challenges; that capture is optional, not required for this test.
+The diagnostic exits after each snapshot; no background worker remains.
+If a capture refuses access or reports unresolved caches, leave the report and
+stop that capture. Do not keep retrying or change any protections.
+
+Do not use an online lobby or run the diagnostic as administrator. If access is
+denied, stop. Do not disable anti-cheat, security software or other protections.
+The probe uses normal Windows read access only; protected access is not bypassed.
+The first read-only capture worked, but the new identity bindings are still
+unverified live. A failure must not lead to fallback offsets or forced loading.
+
+The probe does NOT inject a DLL, call native functions, write game memory, change
+stats, spawn bots, alter ownership/input, install files into CFG, modify AppId,
+enable any feature or scan repeatedly. It reads a bounded pointer path once,
+checks paired native class caches, walks at most 32 ancestors per object with
+cycle detection, and rechecks ownership, caches and class chains for stability.
+There is a hard cap of 256 memory reads and no scan/retry loop. Class identity
+alone does not establish allocation serial/lifetime or permission to write.
+Networked worlds are refused. The selected CFG file is SHA256-checked and its
+loaded module/path/PE identity are checked. Unexpected identity has no fallback.
+
+Successful output is candidate binding evidence only, not approval of gameplay
+compatibility. No stat values are written or read from an unclassified pawn.
+
+Developer verification:
+- Run Verify-OfflineSnapshotBindings.ps1 in the normal development shell; it
+  checks 13 constants against class-linked native metadata. Do not change the
+  user's PowerShell execution policy from a build script.
+- Verify-IdentitySnapshotBindings.ps1 checks seven class-cache pairs, two native
+  identity fields and the two pawn-field schemas against disk evidence.
+- Build-OfflineSnapshot.cmd compiles x64 /W4 /WX /sdl /guard:cf and runs self-tests
+  against the diagnostic process itself. It never launches/attaches to CFG.
+- Synthetic ancestry tests cover changed class/parent, invalid pointers, cycles,
+  missing reads, null/conflicting caches, and the strict 32-node ancestry bound.
+- Close-game/no-match test should return 2 with no game started or modified.
+- Wrong executable identity should return 3 before any process memory read.
