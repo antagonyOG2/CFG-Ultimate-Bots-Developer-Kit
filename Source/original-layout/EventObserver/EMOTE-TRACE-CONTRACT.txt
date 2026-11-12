@@ -1,0 +1,54 @@
+CFG main-port native-emote adapter -- completion observation stage (trace v2)
+
+Separate artifact from the generic observer and manually injected stats hook.
+Exact CFG path/hash/PE, Sandbox counselor identity, known native thread, original
+entry loading and external installation transaction are inherited unchanged.
+Trace installation protocol5 distinguishes this artifact from protocol4 observer.
+No native gameplay call, object mutation, animation replacement/asset load,
+input interception, bot sync or gameplay capability is enabled by a PASS here.
+
+Disk bindings: four generated SCCounselorCharacter emote factory cache locations
+with known parameter storage sizes. Prep reads already-populated cache pointers,
+verifies known object slots, outer native counselor class and FName raw words.
+Missing SERVER_PlayEmote cache refuses. Empty other caches remain unadopted.
+No function factory/getter is called. User warms native hand-stop and Urinate before
+pausing so class/montage assets exist before the strict object-array snapshot.
+
+Callback owner/thread/non-nested gates precede mutable state. Routine callback
+paths compare up to four immutable pointers, update private budget counters and
+do zero object reads/report writes. Fixed selected functions revalidate context,
+native reject flags, cache pointer, name and object slot before copying at most
+16 parameter bytes. An optional class/montage reference gets a bounded header/
+slot observation only. No raw strings are resolved and no reference is retained
+or GC-pinned. Unassigned serial0 is explicitly not lifetime assurance.
+
+All four entry shapes are tested in the actual production callback with owned
+synthetic memory. Consecutive selected events can share a timestamp. Nested native
+dispatch is intentionally excluded, so omission of a multicast/cancel entry cannot
+establish non-execution. Before/after CurrentEmote at verified offset1CF0 observes
+montage start/clear/unchanged/other transition. This is not visible playback proof.
+Each selected entry and completion has a separate64-read cap (combined128).
+Completion revalidates context and bounded montage identity; routine callbacks
+do not enter this read phase. Original exceptions cause no completion field reads.
+Original dispatcher is forwarded exactly once; native exceptions propagate and
+TLS nesting is restored through finally. No callback logging or background worker.
+
+Window starts at first eligible callback. Trace disarms after30 seconds on a
+subsequent eligible callback,4096 eligible calls,32 selected entries,clock reversal,
+changed context/binding or unreadable data. Event32 disarms at entry but publishes
+terminal completion only after the original dispatcher returns or raises.
+Forwarding remains through game exit.
+No callback on the configured pawn means no timer advances or checks externally.
+
+Report is bounded below8192 bytes and externally consumed with two matching RPM
+snapshots and even release-published generation. Counters are last-published
+samples during capture, not live totals. Pending events receive completion updates
+under the same generation protocol; this is not an append-only record.
+Reader validates every <=4 readable
+MEM_IMAGE segment, same allocation owner, committed/no guard/no noaccess; reports
+can cross READWRITE/WRITECOPY pages. No protection change. Existing patch/code
+validation still uses its original strict single-region policy.
+
+Owned tests do not establish native engine GC/unwind safety or animation asset
+catalogue compatibility. Physical test must establish selected native entries
+and parameter references before emote-sync/gameplay dispatch work is enabled.
