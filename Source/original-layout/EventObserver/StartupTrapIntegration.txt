@@ -1,0 +1,92 @@
+CFG isolated native startup trap adapter
+
+Files:
+  Core/StartupTrapRuntime.hpp
+  EventObserver/NativeStartupTraps.hpp
+  RuntimeProbe/StartupTrapBindings.generated.hpp
+  Inspect-CfgStartupTrapBindings.ps1
+  Diagnostics/CFG-StartupTrap-Bindings.json
+  EventObserver/StartupTrapTests.cpp
+  Core/StartupTrapMapScope.hpp
+
+Integration (not installed or enabled by these files):
+1. Keep one startup::Runtime, startup::Sources and immutable startup::Inputs
+   per adopted world/Jason. Populate Inputs from the existing positive arrival,
+   Jason pawn/controller evidence and exact current world map-family proof.
+   Unknown, Grendel and GrendelLarge must not start. Never derive this gate
+   from a display substring. Do not reuse an Inputs/Sources set after travel.
+   MapFamilyForArrival(actualPackage.View(), observedWorld, currentWorld) only
+   enables the corroborated CrystalLake_Small package. All other packages skip;
+   no invented Grendel paths, snow suffixes, or label matching is performed.
+2. Include NativeStartupTraps.hpp. Add small BundleAccess accessors returning
+   the exact current bundleJason pawn/controller pointers (TrapJason and
+   TrapController), and construct NativeAccess<Reader,BundleAccess> inside a
+   BundleAccess method with its own r_, *this, persistent Inputs and Sources.
+   This is the SAME bounded reader/call accounting; do not create an unmetered
+   reader. Existing Context/Jason/FeatureFunction/Location/Invoke are reused.
+   Optional host methods TrapMorphDue(now) and TrapMorphCompleted(now) enable
+   startup relocation. TrapMorphCompleted RESERVES the shared20s Morph clock
+   before dispatch, including a native denial/exception, not only on success.
+3. Call Runtime.Start once. On the exact native owner thread, after owed attack
+   release has been serviced, call Step on paced callbacks. While Busy, suppress
+   other commands to this Jason: hunt movement, door input, attack, vehicle
+   intercept and Morph. Keep the normal world/identity/exception checks active.
+   A Step may be idle or issue bounded native calls, never a loop over the world.
+   At Refused/Indeterminate, expose the reason; do not restart this Runtime.
+   In particular, uncertain AttemptPlaceTrap never retries. Host native
+   exceptions remain a global stop, not an optional feature failure.
+4. Sources persist across callbacks; NativeAccess itself is ephemeral because
+   its reader and BundleAccess references are callback-local. Discovery uses
+   SCGameState.Phone590 (descriptor type SCPhoneJunctionBox), Car2Seat578 and
+   Car4Seat570, with positive actor slots and strong owned typed interaction
+   component references. It never uses GObjects enumeration or a level census.
+5. After completion, return to normal hunting and reset the host's accepted
+   movement target/grace state. Do not move immediately on count consumption:
+   the adapter holds five seconds after the last consumed trap too. A consumed
+   count is NOT a claim of a visible/armed trap actor; report those separately.
+6. Discover first prepares one of nine bindings per callback. This prevents
+   cold factory calls bunching into Face/Attempt. The callback-local adapter
+   retains Context/Jason proof only across exact pure actor transform queries;
+   factories and state-changing calls consume it BEFORE dispatch. Positive
+   identity/backlinks are rechecked around those calls. Do not reuse an adapter
+   across callbacks or interleave unrelated host native actions into Step.
+   A production-cost fixture charges Context150+Jason150, binding50, Location20,
+   PLUS the outer BundlePhase Context/Jason pair to the SAME1536-read limit.
+   This is modeled cost, not live performance. Do not raise budgets blindly.
+   The generated logical parameter lengths differ from padding:
+   CanPlace25/28, Attempt0/0, Stop0/0, MoveLocation34/40,
+   ActorRotation14/16, ControlRotation12/12, ForwardVector12/12,
+   Projection61/64, Teleport25/28.
+
+Reused base behavior:
+  FrozenJasonBridge: initial5s, stop650ms, normal MoveToLocation, native
+  CanPlaceTrap/AttemptPlaceTrap/count readback and bounded objective visitation.
+  Features: phone exterior/right stand155/180/205/230 and lateral0/24/-24/48,
+  native placement band85..125 and tangent<=85, three stationary263ms probes,
+  car front-sector bounds, actor plus control facing, four pre-call retries,
+  five-second post-consumption animation hold (including final1->0).
+
+Deliberate current differences / unproven physical behavior:
+  Optional >25m objective relocation: one shallow350/350/110 projection slice,
+  then a separate native Actor.K2_TeleportTo slice, maxone dispatch/objective.
+  Revalidate exact owned authored anchor in both slices. Reject layer mismatch
+  >120 and excessive horizontal nav snap. Add90 to projected ground as explicit
+  base policy, not a claim about unobserved CFG capsule metadata. Failure walks;
+  pending projection/teleport never bunch with normal Move in the same slice.
+  Host without shared-clock methods remains walking-only through SFINAE.
+  Each objective gets45s (not the base16s teleport-assisted bound).
+  No retries after an uncertain native attempt, unlike permissive base retry.
+  No visible trap actor census/claim; only the native inventory transition.
+  Authored objective transforms are proved. Exact CFG trap markers are not:
+  CFG-NativeRoutes.json explicitly says placementCoordinatesLogged=false.
+  Relative placement bands are base policy and require physical corroboration
+  for CFG's assets. Native CanPlaceTrap remains authoritative for legality.
+  No shack traps or unproved map coordinate fallback. No inventory writes.
+  No installer, hook, automatic call or shared bundle/build-script edits.
+
+Verification run:
+  Inspect-CfgStartupTrapBindings.ps1 PASS on exact image SHA256
+  53B91EA6BC2D9EC69F5AAF41EB67ECB4E5393E71F8AD4B3276F2D74BC27E4BC6.
+  MSVC /std:c++17 /EHsc /W4 /WX StartupTrapTests.cpp PASS (0 failures).
+  Tests exercise runtime timing/count/uncertainty/map refusal and actual typed
+  reader source chains/executor pins via owned fixtures, with no game access.
