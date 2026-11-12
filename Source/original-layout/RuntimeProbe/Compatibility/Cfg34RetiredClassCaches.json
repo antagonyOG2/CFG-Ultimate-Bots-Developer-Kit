@@ -1,0 +1,922 @@
+{
+  "SourceCommit": "43ab1c3",
+  "Kind": "Historical source class-cache candidates absent from current CFG3.5 factory catalogue; not runtime authority",
+  "CurrentImageSHA256": "4FC4BB544747FFF85EA03DCB83DE0367AC2F5AF1AE5355614608C737E01A90A6",
+  "Retired": [
+    {
+      "Path": "EventObserver/CounselorStartObservation.hpp",
+      "Name": "ClassCache",
+      "Rva": "0x3049F20"
+    },
+    {
+      "Path": "EventObserver/NativeHumanJasonOptionsRuntime.hpp",
+      "Name": "MovementClass",
+      "Rva": "0x3049018"
+    },
+    {
+      "Path": "RuntimeProbe/ActorRotationBindings.generated.hpp",
+      "Name": "ActorClass",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/ActorTeleportBindings.generated.hpp",
+      "Name": "ActorClass",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/AiActionBindings.generated.hpp",
+      "Name": "HidingReflection",
+      "Rva": "0x304BB68"
+    },
+    {
+      "Path": "RuntimeProbe/BotNameBindings.generated.hpp",
+      "Name": "StateClass",
+      "Rva": "0x304DD40"
+    },
+    {
+      "Path": "RuntimeProbe/CameraBindings.generated.hpp",
+      "Name": "CameraClassCache",
+      "Rva": "0x32F2188"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "Actor",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "AIController",
+      "Rva": "0x32BFC50"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "Controller",
+      "Rva": "0x32EA158"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "GetScaledSphereRadius[class]",
+      "Rva": "0x32F4340"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "IsOverlappingActor[class]",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "K2_GetActorLocation[class]",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "K2_GetActorRotation[class]",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "K2_GetComponentLocation[class]",
+      "Rva": "0x32F3610"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "K2_TeleportTo[class]",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "MovementComponent",
+      "Rva": "0x32F0248"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "PlayerController",
+      "Rva": "0x32F2568"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "PrimitiveComponent",
+      "Rva": "0x32F2CB8"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SCCounselorCharacter",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SCDriveableVehicle",
+      "Rva": "0x304A7E8"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SceneComponent",
+      "Rva": "0x32F3610"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SCEscapeVolume",
+      "Rva": "0x304A998"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SCGameMode_SPChallenges",
+      "Rva": "0x304AF50"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SCGameState_SPChallenges",
+      "Rva": "0x304B120"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SCVehicleSeatComponent",
+      "Rva": "0x304EC10"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SetBrakeInput[class]",
+      "Rva": "0x3334F70"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SetPhysicsAngularVelocity[class]",
+      "Rva": "0x32F2CB8"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SetPhysicsLinearVelocity[class]",
+      "Rva": "0x32F2CB8"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SetThrottleInput[class]",
+      "Rva": "0x3334F70"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "SphereComponent",
+      "Rva": "0x32F4340"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "StopMovement[class]",
+      "Rva": "0x32EA158"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "StopMovementImmediately[class]",
+      "Rva": "0x32F0248"
+    },
+    {
+      "Path": "RuntimeProbe/ChallengeEscapeRecovery.generated.hpp",
+      "Name": "WheeledVehicleMovementComponent",
+      "Rva": "0x3334F70"
+    },
+    {
+      "Path": "RuntimeProbe/ClassIdentity.hpp",
+      "Name": "SCCounselorCharacter[class]",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/ClassIdentity.hpp",
+      "Name": "SCGameMode_OfflineBots[class]",
+      "Rva": "0x304AF08"
+    },
+    {
+      "Path": "RuntimeProbe/ClassIdentity.hpp",
+      "Name": "SCGameMode_Sandbox[class]",
+      "Rva": "0x304AF38"
+    },
+    {
+      "Path": "RuntimeProbe/ClassIdentity.hpp",
+      "Name": "SCGameMode_SPChallenges[class]",
+      "Rva": "0x304AF50"
+    },
+    {
+      "Path": "RuntimeProbe/ClassIdentity.hpp",
+      "Name": "SCKillerCharacter[class]",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/ClassIdentity.hpp",
+      "Name": "SCPlayerController[class]",
+      "Rva": "0x304D8E0"
+    },
+    {
+      "Path": "RuntimeProbe/ConvergenceBindings.generated.hpp",
+      "Name": "SCWeaponReflection",
+      "Rva": "0x304ED90"
+    },
+    {
+      "Path": "RuntimeProbe/CounselorBirthBindings.generated.hpp",
+      "Name": "SCCounselorCharacterClass",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/CounselorBirthBindings.generated.hpp",
+      "Name": "SCGameMode_SandboxClass",
+      "Rva": "0x304AF38"
+    },
+    {
+      "Path": "RuntimeProbe/CounselorBirthBindings.generated.hpp",
+      "Name": "SCKillerCharacterClass",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/CounselorBirthBindings.generated.hpp",
+      "Name": "SCPlayerController_SandboxClass",
+      "Rva": "0x304DA50"
+    },
+    {
+      "Path": "RuntimeProbe/CounselorBirthBindings.generated.hpp",
+      "Name": "SCPlayerStateClass",
+      "Rva": "0x304DD40"
+    },
+    {
+      "Path": "RuntimeProbe/CounselorStartBindings.generated.hpp",
+      "Name": "ClassCache",
+      "Rva": "0x3049F20"
+    },
+    {
+      "Path": "RuntimeProbe/CrowdFallbackBindings.generated.hpp",
+      "Name": "MovementClassCache",
+      "Rva": "0x32E9C68"
+    },
+    {
+      "Path": "RuntimeProbe/DoorBindings.generated.hpp",
+      "Name": "ILLInteractableComponentReflection",
+      "Rva": "0x3043860"
+    },
+    {
+      "Path": "RuntimeProbe/DoorBindings.generated.hpp",
+      "Name": "SCDoorReflection",
+      "Rva": "0x304A2E8"
+    },
+    {
+      "Path": "RuntimeProbe/DoorBreakBindings.generated.hpp",
+      "Name": "ComponentReflection",
+      "Rva": "0x304BFA0"
+    },
+    {
+      "Path": "RuntimeProbe/EmoteMirrorBindings.generated.hpp",
+      "Name": "AnimMontageReflection",
+      "Rva": "0x32E8160"
+    },
+    {
+      "Path": "RuntimeProbe/EmoteMirrorBindings.generated.hpp",
+      "Name": "SCCounselorCharacterReflection",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/EmoteMirrorBindings.generated.hpp",
+      "Name": "SCEmoteDataReflection",
+      "Rva": "0x304A858"
+    },
+    {
+      "Path": "RuntimeProbe/EndingMetadataBindings.generated.hpp",
+      "Name": "SCJasonSkinClass",
+      "Rva": "0x304C170"
+    },
+    {
+      "Path": "RuntimeProbe/EndingMetadataBindings.generated.hpp",
+      "Name": "SCKillerCharacterClass",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/EndingMetadataBindings.generated.hpp",
+      "Name": "SCPlayerStateClass",
+      "Rva": "0x304DD40"
+    },
+    {
+      "Path": "RuntimeProbe/EndingMetadataBindings.generated.hpp",
+      "Name": "SCWeaponClass",
+      "Rva": "0x304ED90"
+    },
+    {
+      "Path": "RuntimeProbe/EscapeBindings.generated.hpp",
+      "Name": "ControllerReflection",
+      "Rva": "0x32EA158"
+    },
+    {
+      "Path": "RuntimeProbe/EscapeBindings.generated.hpp",
+      "Name": "GameModeReflection",
+      "Rva": "0x32EB9C8"
+    },
+    {
+      "Path": "RuntimeProbe/EscapeBindings.generated.hpp",
+      "Name": "SCCounselorCharacterReflection",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/EscapeBindings.generated.hpp",
+      "Name": "SCGameModeReflection",
+      "Rva": "0x304ADF0"
+    },
+    {
+      "Path": "RuntimeProbe/EscapeBindings.generated.hpp",
+      "Name": "SCGameStateReflection",
+      "Rva": "0x304B030"
+    },
+    {
+      "Path": "RuntimeProbe/EscapeBindings.generated.hpp",
+      "Name": "SCPlayerStateReflection",
+      "Rva": "0x304DD40"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "ILLInventoryComponent[class]",
+      "Rva": "0x3043A58"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "ILLInventoryItem[class]",
+      "Rva": "0x3043AC8"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCCounselorActiveAbility[class]",
+      "Rva": "0x3049690"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCCounselorCharacter[class]",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCDriveableVehicle[class]",
+      "Rva": "0x304A7E8"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCGameState[class]",
+      "Rva": "0x304B030"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCKillerMask[class]",
+      "Rva": "0x304CC00"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCPamelaSweater[class]",
+      "Rva": "0x304D428"
+    },
+    {
+      "Path": "RuntimeProbe/FeatureSnapshotBindings.generated.hpp",
+      "Name": "SCTrap[class]",
+      "Rva": "0x304EB70"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "GameModeClass",
+      "Rva": "0x304ADF0"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "GetCurrentCharacterClassCache",
+      "Rva": "0x30490F0"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "ILLGameBlueprintLibraryClass",
+      "Rva": "0x30430C0"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "RequestCounselorClassCache",
+      "Rva": "0x304DCB0"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "RequestKillerClassCache",
+      "Rva": "0x304DCC0"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SCCharacterWidgetClass",
+      "Rva": "0x3049118"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SCCounselorCharacterClass",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SCGameMode_SandboxClass",
+      "Rva": "0x304AF38"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SCKillerCharacterClass",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SCMapRegistryClass",
+      "Rva": "0x304CE48"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SCPlayerStateClass",
+      "Rva": "0x304DD40"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendCatalogues.generated.hpp",
+      "Name": "SetCurrentCharacterClassCache",
+      "Rva": "0x3049110"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendControllerObservation.hpp",
+      "Name": "MenuClass",
+      "Rva": "0x304D988"
+    },
+    {
+      "Path": "RuntimeProbe/FrontendTransport.generated.hpp",
+      "Name": "HudClass",
+      "Rva": "0x32EC3A8"
+    },
+    {
+      "Path": "RuntimeProbe/HostedAuthorityBindings.hpp",
+      "Name": "HuntReflection",
+      "Rva": "0x304AEE8"
+    },
+    {
+      "Path": "RuntimeProbe/HostedAuthorityBindings.hpp",
+      "Name": "WorldReflection",
+      "Rva": "0x32F53B8"
+    },
+    {
+      "Path": "RuntimeProbe/HunterBindings.generated.hpp",
+      "Name": "ManagerReflection",
+      "Rva": "0x304BF58"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "ActorReflection",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "LevelReflection",
+      "Rva": "0x32EEB90"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "SCContextKillActorReflection",
+      "Rva": "0x30492C8"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "SCContextKillComponentReflection",
+      "Rva": "0x3049380"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "SCCounselorCharacterReflection",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "SCInteractComponentReflection",
+      "Rva": "0x304BFA0"
+    },
+    {
+      "Path": "RuntimeProbe/KillBindings.generated.hpp",
+      "Name": "SCKillerCharacterReflection",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/KillerStartBindings.generated.hpp",
+      "Name": "ClassCache",
+      "Rva": "0x304CC20"
+    },
+    {
+      "Path": "RuntimeProbe/KnifeSequenceBindings.generated.hpp",
+      "Name": "ThrowableReflection",
+      "Rva": "0x304E870"
+    },
+    {
+      "Path": "RuntimeProbe/LoadedCounselorBindings.generated.hpp",
+      "Name": "NativeClassCache",
+      "Rva": "0x3196750"
+    },
+    {
+      "Path": "RuntimeProbe/MenuExecution.generated.hpp",
+      "Name": "FrontendClass",
+      "Rva": "0x304AB50"
+    },
+    {
+      "Path": "RuntimeProbe/NativeJasonBindings.generated.hpp",
+      "Name": "KillerControllerClassCache",
+      "Rva": "0x304C468"
+    },
+    {
+      "Path": "RuntimeProbe/NativeJasonBindings.generated.hpp",
+      "Name": "KillerControllerReflection",
+      "Rva": "0x304C460"
+    },
+    {
+      "Path": "RuntimeProbe/NativePopulationBindings.generated.hpp",
+      "Name": "CounselorControllerClassCache",
+      "Rva": "0x3049740"
+    },
+    {
+      "Path": "RuntimeProbe/NativePopulationBindings.generated.hpp",
+      "Name": "CounselorControllerReflection",
+      "Rva": "0x3049738"
+    },
+    {
+      "Path": "RuntimeProbe/NativeWidgetOwnershipObservation.hpp",
+      "Name": "ClassCache",
+      "Rva": "0x32BE280"
+    },
+    {
+      "Path": "RuntimeProbe/ObjectivePanelBindings.hpp",
+      "Name": "PanelSlot",
+      "Rva": "0x32BD818"
+    },
+    {
+      "Path": "RuntimeProbe/ObjectivePanelBindings.hpp",
+      "Name": "PanelWidget",
+      "Rva": "0x32BD870"
+    },
+    {
+      "Path": "RuntimeProbe/ObjectivePanelBindings.hpp",
+      "Name": "Widget",
+      "Rva": "0x32BE4E0"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineIntroMetadataBindings.generated.hpp",
+      "Name": "SCGameState_OfflineBotsClass",
+      "Rva": "0x304B0D0"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineIntroMetadataBindings.generated.hpp",
+      "Name": "SCPlayerController_OfflineBotsClass",
+      "Rva": "0x304D9A8"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineIntroMetadataBindings.generated.hpp",
+      "Name": "SCPlayerState_OfflineBotsClass",
+      "Rva": "0x304DEA0"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineLifecycleBindings.generated.hpp",
+      "Name": "ControllerClass",
+      "Rva": "0x32EA158"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineLifecycleBindings.generated.hpp",
+      "Name": "GameModeBaseClass",
+      "Rva": "0x32EBAB8"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineLifecycleBindings.generated.hpp",
+      "Name": "OfflineBotsClass",
+      "Rva": "0x304AF08"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineLifecycleBindings.generated.hpp",
+      "Name": "OfflineClass",
+      "Rva": "0x304AEF8"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineLifecycleBindings.generated.hpp",
+      "Name": "SandboxClass",
+      "Rva": "0x304AF38"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineSettingsBindings.generated.hpp",
+      "Name": "GameModeClass",
+      "Rva": "0x32EB9C8"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineSettingsBindings.generated.hpp",
+      "Name": "SCGameMode_SandboxClass",
+      "Rva": "0x304AF38"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineSettingsBindings.generated.hpp",
+      "Name": "SCGameModeClass",
+      "Rva": "0x304ADF0"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineSettingsBindings.generated.hpp",
+      "Name": "SCGameStateClass",
+      "Rva": "0x304B030"
+    },
+    {
+      "Path": "RuntimeProbe/OfflineSettingsBindings.generated.hpp",
+      "Name": "SCKillerCharacterClass",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/PositionBindings.generated.hpp",
+      "Name": "SceneClassCache",
+      "Rva": "0x32F3610"
+    },
+    {
+      "Path": "RuntimeProbe/PositionBindings.generated.hpp",
+      "Name": "TrapClassCache",
+      "Rva": "0x304EB70"
+    },
+    {
+      "Path": "RuntimeProbe/PostMatchRecoveryBindings.generated.hpp",
+      "Name": "LevelClass",
+      "Rva": "0x32EEB90"
+    },
+    {
+      "Path": "RuntimeProbe/PostMatchRecoveryBindings.generated.hpp",
+      "Name": "LevelSequenceActorClass",
+      "Rva": "0x32C18A8"
+    },
+    {
+      "Path": "RuntimeProbe/PostMatchRecoveryBindings.generated.hpp",
+      "Name": "MovieSceneSequencePlayerClass",
+      "Rva": "0x32B7AF8"
+    },
+    {
+      "Path": "RuntimeProbe/PostMatchRecoveryBindings.generated.hpp",
+      "Name": "SCWorldSettingsClass",
+      "Rva": "0x304F110"
+    },
+    {
+      "Path": "RuntimeProbe/PrimaryJasonBindings.generated.hpp",
+      "Name": "KismetReflection",
+      "Rva": "0x32EE8F8"
+    },
+    {
+      "Path": "RuntimeProbe/PrimaryJasonResources.hpp",
+      "Name": "ModeReflection",
+      "Rva": "0x304ADF0"
+    },
+    {
+      "Path": "RuntimeProbe/PrimaryJasonResources.hpp",
+      "Name": "StateReflection",
+      "Rva": "0x304B030"
+    },
+    {
+      "Path": "RuntimeProbe/RadarObjectiveBindings.generated.hpp",
+      "Name": "SCCBRadioReflection",
+      "Rva": "0x3048820"
+    },
+    {
+      "Path": "RuntimeProbe/RadarObjectiveBindings.generated.hpp",
+      "Name": "SCPhoneJunctionBoxReflection",
+      "Rva": "0x304D5E0"
+    },
+    {
+      "Path": "RuntimeProbe/RadarWorldBindings.generated.hpp",
+      "Name": "CabinClassCache",
+      "Rva": "0x3048218"
+    },
+    {
+      "Path": "RuntimeProbe/RadarWorldBindings.generated.hpp",
+      "Name": "LevelClassCache",
+      "Rva": "0x32EEB90"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "ILLLocalPlayerClass",
+      "Rva": "0x3043C90"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "SCCharacterSelectionsSaveGameClass",
+      "Rva": "0x30490C8"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "SCGame_MenuClass",
+      "Rva": "0x304AB50"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "SCGameInstanceClass",
+      "Rva": "0x304AD78"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "SCMapDefinitionClass",
+      "Rva": "0x304CDC8"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "SCMapRegistryClass",
+      "Rva": "0x304CE48"
+    },
+    {
+      "Path": "RuntimeProbe/SetupSelections.generated.hpp",
+      "Name": "SCPlayerStateClass",
+      "Rva": "0x304DD40"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "AIBlueprintHelperLibrary[class]",
+      "Rva": "0x32BFB88"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "AIController[class]",
+      "Rva": "0x32BFC50"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "BehaviorTree[class]",
+      "Rva": "0x32C0280"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "BrainComponent[class]",
+      "Rva": "0x32C04F0"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "GameStateBase[class]",
+      "Rva": "0x32EBFF0"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "SCCounselorAIController[class]",
+      "Rva": "0x3049738"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnBindings.generated.hpp",
+      "Name": "SCKillerAIController[class]",
+      "Rva": "0x304C460"
+    },
+    {
+      "Path": "RuntimeProbe/SpawnRuntimeBindings.generated.hpp",
+      "Name": "ActorClassReflectionCache",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/SpectatorClassBindings.hpp",
+      "Name": "ControllerClassCache",
+      "Rva": "0x304D8E0"
+    },
+    {
+      "Path": "RuntimeProbe/SpectatorClassBindings.hpp",
+      "Name": "PawnClassCache",
+      "Rva": "0x304E580"
+    },
+    {
+      "Path": "RuntimeProbe/StartingLoadoutBindings.generated.hpp",
+      "Name": "SCCharacterAIPropertiesClass",
+      "Rva": "0x3048F98"
+    },
+    {
+      "Path": "RuntimeProbe/StartingLoadoutBindings.generated.hpp",
+      "Name": "SCCounselorAIPropertiesClass",
+      "Rva": "0x3048FA8"
+    },
+    {
+      "Path": "RuntimeProbe/StartingLoadoutBindings.generated.hpp",
+      "Name": "SCCounselorCharacterClass",
+      "Rva": "0x3049C58"
+    },
+    {
+      "Path": "RuntimeProbe/StartingLoadoutBindings.generated.hpp",
+      "Name": "SCGameModeClass",
+      "Rva": "0x304ADF0"
+    },
+    {
+      "Path": "RuntimeProbe/StartingLoadoutBindings.generated.hpp",
+      "Name": "SCItemClass",
+      "Rva": "0x304C118"
+    },
+    {
+      "Path": "RuntimeProbe/StartingPlayerBindings.generated.hpp",
+      "Name": "GameModeBaseClass",
+      "Rva": "0x32EBAB8"
+    },
+    {
+      "Path": "RuntimeProbe/StartingPlayerBindings.generated.hpp",
+      "Name": "PlayerControllerClass",
+      "Rva": "0x32F2568"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "ActorReflection",
+      "Rva": "0x32E77E0"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "AIControllerReflection",
+      "Rva": "0x32BFC50"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "ControllerReflection",
+      "Rva": "0x32EA158"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "NavigationSystemReflection",
+      "Rva": "0x32F0548"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "SCDriveableVehicleReflection",
+      "Rva": "0x304A7E8"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "SCGameModeReflection",
+      "Rva": "0x304ADF0"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "SCGameStateReflection",
+      "Rva": "0x304B030"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "SCInteractComponentReflection",
+      "Rva": "0x304BFA0"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "SCKillerCharacterReflection",
+      "Rva": "0x304C9D0"
+    },
+    {
+      "Path": "RuntimeProbe/StartupTrapBindings.generated.hpp",
+      "Name": "SCPhoneJunctionBoxReflection",
+      "Rva": "0x304D5E0"
+    },
+    {
+      "Path": "RuntimeProbe/SweaterHudBindings.generated.hpp",
+      "Name": "SCHUDReflection",
+      "Rva": "0x304BBB0"
+    },
+    {
+      "Path": "RuntimeProbe/SweaterHudBindings.generated.hpp",
+      "Name": "SCHUDWidgetReflection",
+      "Rva": "0x304BD68"
+    },
+    {
+      "Path": "RuntimeProbe/SweaterHudBindings.generated.hpp",
+      "Name": "SCPlayerControllerReflection",
+      "Rva": "0x304D8E0"
+    },
+    {
+      "Path": "RuntimeProbe/SwimActionBindings.hpp",
+      "Name": "ContextActorReflection",
+      "Rva": "0x30492C8"
+    },
+    {
+      "Path": "RuntimeProbe/TrapPriorityBindings.generated.hpp",
+      "Name": "TrapReflection",
+      "Rva": "0x304EB70"
+    },
+    {
+      "Path": "RuntimeProbe/VehicleBindings.generated.hpp",
+      "Name": "VehicleReflection",
+      "Rva": "0x304A7E8"
+    },
+    {
+      "Path": "RuntimeProbe/VehicleInteractionBindings.generated.hpp",
+      "Name": "ILLInteractableComponent",
+      "Rva": "0x3043860"
+    },
+    {
+      "Path": "RuntimeProbe/VehicleInteractionBindings.generated.hpp",
+      "Name": "ILLInteractableManagerComponent",
+      "Rva": "0x30439F0"
+    },
+    {
+      "Path": "RuntimeProbe/VehicleInteractionBindings.generated.hpp",
+      "Name": "SCDriveableVehicle",
+      "Rva": "0x304A7E8"
+    },
+    {
+      "Path": "RuntimeProbe/VehicleInteractionBindings.generated.hpp",
+      "Name": "SCVehicleSeatComponent",
+      "Rva": "0x304EC10"
+    },
+    {
+      "Path": "RuntimeProbe/VehicleRoadBindings.generated.hpp",
+      "Name": "RoadClassCache",
+      "Rva": "0x304E1D8"
+    },
+    {
+      "Path": "RuntimeProbe/WorldMapBindings.generated.hpp",
+      "Name": "NativeClassCache",
+      "Rva": "0x3196750"
+    },
+    {
+      "Path": "RuntimeProbe/WorldMapBindings.generated.hpp",
+      "Name": "SCMapDefinitionClass",
+      "Rva": "0x304CDC8"
+    },
+    {
+      "Path": "RuntimeProbe/WorldMapBindings.generated.hpp",
+      "Name": "WorldClass",
+      "Rva": "0x32F53B8"
+    }
+  ]
+}
