@@ -1,0 +1,78 @@
+CFG OFFLINE EVENT OBSERVER - STAGED PROTOTYPE ONLY
+Not persistently installed. Offline live test passed. Not the playable mod.
+
+CURRENT IMPLEMENTATION, 2026-10-03
+Protocol4. IntegrationHarness.cpp implements the obligations below; staged build
+and owned-process tests PASS. Run-CFG-Integration-Test.cmd is the next bounded
+physical test entry, not a production/gameplay installer.
+PID3744 live native Sandbox test: installed, all60 observed threads resumed;
+64 ordered callbacks on game thread14656; completed budget over1000ms. User closed
+CFG. No gameplay calls/features were enabled and no persistent installer used.
+Exact artifact path/size/hash generated into ObserverBuildPin.generated.hpp.
+Remote PE/export prefixes and actual detour prefix16 are independently compared;
+the detour comparison repeats while frozen. A changed-detour own-process test
+verifies refusal, original-byte/protection restoration and successful rebinding.
+Preparation uses GetModuleHandleExW FROM_ADDRESS|PIN before publishing Prepared.
+Report includes dllPinned and is consumed by two matching bounded RPM snapshots.
+Focused Astra review found no remaining concrete observational-test blocker.
+Native engine/trampoline unwind and full GC eligibility are still unverified.
+First live attempt PID3068 loaded the DLL but returned RefusedIdentity before
+target installation. Exact failing subcheck was not captured. Protocol4 adds
+bounded stable failure reports with explicit stage/read/error diagnostics;
+failure reports never satisfy PublishedReport or install authorization.
+
+PREPARATION
+Load only the exact separately pinned observer artifact into the exact CFG build
+using the already-reviewed original Windows loading entry. Do not reuse the
+inert-bootstrap hash or labels. No existing instrumentation may be overwritten.
+One attempt per fresh game session; no helper retries after ambiguity.
+Call CfgPrepareObservation outside DllMain with a fresh bounded Plan. Wait for
+completion and Prepared before any suspension or target patch. Source currently
+restricts preparation to the known G-drive CFG build, native offline Sandbox,
+local counselor/controller ancestry and sampled positive allocation identities.
+No gameplay calls or game-object writes occur during preparation.
+
+INSTALLATION OBLIGATIONS - IMPLEMENTED; ONE LIVE OFFLINE TEST PASSED
+External harness must independently pin DLL identity/module ownership, target
+prefix, trampoline/relay bytes, destination ranges and continuation/detour.
+Freeze/check/resume stays in the harness, not injected helpers. Every successfully
+suspended thread receives exactly one resume attempt on every exit path. Refuse
+occupied patch spans, changed observed thread sets, identity or deadline failures.
+No SetThreadContext, debug privileges, loader-entry repair, protection bypass,
+arbitrary online modes, existing-hook overwrite or automatic rollback.
+Final thread-set sampling is not atomic with externally created threads; this
+remaining race must be explicit. Indeterminate patch/resume outcomes mean normal
+execution may no longer be safe; they are NOT a clean refusal.
+Keep DLL, immutable context and trampoline resident through normal process exit,
+including failure/ambiguity; never unload or free forwarding storage.
+MinHook's private preparation allocation is initially RWX, then sealed RX before
+publication. Its allocator instance is one-shot; never allocate/free from it again.
+
+OBSERVATION AND CONSUMPTION
+The actual callback forwards original arguments once, including nested/ignored
+calls, and restores its direct static TLS nesting flag in SEH finally. It does
+not swallow native exceptions. Exact configured object/thread only are recorded.
+30 bounded read calls check known offline identity per sampled event. Sampling
+has a minimum10ms spacing; intervening bursts forward without object reads.
+It is a sample, NOT a complete event trace. No worker/timer is scheduled. No global
+scan, names, log I/O, asset loading, worker or gameplay dispatch in callbacks.
+Maximum64 events; five seconds begins at the FIRST recorded event and expiration
+is detected only on a later eligible callback. Recording disarms permanently on
+identity/time/budget failure. The detour remains forwarding until process exit.
+Read reports externally with two bounded RPM snapshots, accepting only matching
+published prefix/status/metadata through ReportObservation.hpp. Plain concurrent
+in-process reads through CfgObserverReport() are not supported. Metadata can lag
+the release-published append-only event count, so inconsistent samples refuse.
+Serial agreement is sampled identity, not GC pinning or arbitrary-call approval.
+
+VERIFIED IN OWNED TEST PROCESSES
+Build-EventObserver.cmd: portable capture/coordinator faults, known offline
+context omissions/transitions/read budget, owned-child 3-thread refusal/install/
+changed-prefix tests, generated trampoline/relay readback + RX sealing, exact
+forwarding for nested/foreign object/thread cases, own-process build refusal.
+ProductionCallbackTests compiles the unchanged production callback into a TEST
+EXE with synthetic owned context; actual RPM30 reads, propagated exception then
+subsequent recording/TLS recovery, nested forwarding, permanent disarm PASS.
+Simulated API failures verify sequencing, NOT real Windows failure behavior.
+None of these tests establish native CFG engine exception/GC safety or gameplay
+readiness. No observer DLL, hook or gameplay feature has been loaded into CFG.
